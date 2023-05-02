@@ -72,3 +72,25 @@ while True:
         print("nah")
     except ValueError:
         print("ValueError")
+
+
+
+print()
+print('---Task4---')
+print()
+
+""" ## Exercise 4:
+Create a Python function that receives three parameters: a date 
+(datetime object), number of days (integers), timezone (string).
+The function should add the number of days to the date, 
+considering the timezone passed as an argument. If the timezone 
+is not valid, the function should raise an exception.
+(edited) """
+
+from datetime import datetime
+""" 
+while True:
+    try:
+        date = (input("Enter date format YYYY,MM,DD"))
+        date_format = datetime.strptime(date,%Y,%m,%d)
+        print(date_format) """
