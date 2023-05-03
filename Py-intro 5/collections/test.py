@@ -1,13 +1,10 @@
-def capitalize_long_strings(lst):
+def even(my_list):
     result = []
-    for item in lst:
-        if len(item) >= 5:
-            # result.append(item.capitalize())
-            result.append(item.upper())
+    for x in my_list:
+        if x > 0:
+            # result = result + [item]
+            result.append(x*x)
     return result
 
-
-
-
-lst = ["apple", "banana", "cat", "dog", "elephant", "frog"]
-print(capitalize_long_strings(lst)) # Output: ['APPLE', 'BANANA', 'ELEPHANT']
+my_list = [1, 2, 3, 4, 5]
+print(even(my_list))
