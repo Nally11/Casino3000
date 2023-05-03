@@ -60,7 +60,7 @@ program will not be able to parse the input and may raise other exceptions. """
 
 while True:
     try:
-        numbers = (input("Enter number list seperated by , "))
+        numbers = (input("Enter number list separated by , "))
         num_list = numbers.split(",")
         int_list = []
         for i in num_list:
